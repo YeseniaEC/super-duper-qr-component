@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-
+import qrImage from './../../public/images/image-qr-code.png';
 
 function Qr
 () {
@@ -8,11 +8,11 @@ function Qr
 		<div className='h-[497px] w-80 mx-[28px] bg-white rounded-xl'>
 			<div className='pt-4 mt-0 mx-4 mb-6'>
 				<Image
-					src='/images/image-qr-code.png'
+				  	src={qrImage}
 					alt='QR Code'
 					height={288}
-                  width={288}
-                  objectFit='fill'
+                  	width={288}
+                  	objectFit='fill'
 					className='rounded-lg'
 				/>
 			</div>
